@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: rgb(0, 20, 50);
+}
+
+.over-container {
+  height: 84vmin;
+  position: relative;
+  top: calc(50vh - 49vmin);
+}
+
+.main-title {
+  font-family: 'Baumans', monospace;
+  font-size: 9vmin;
+  margin:  5vmin;
+  color: rgb(165, 150, 240);
+}
+
+.container {
+  display: block;
+  height: 70vmin;
+  width: 70vmin;
+  margin: auto;
+  padding: 0;
+}
+
+.row {
+  height: 33vmin;
+}
+
+.btn {
+  border: 1vmin solid black;
+  border-radius: 20%;
+  cursor: pointer;
+  display: inline-block;
+  height: 27vmin;
+  margin: 2vmin;
+  width: 27vmin;
+}
+
+.game-over {
+  background-color: rgb(150, 50, 50);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(150, 50, 100);
+}
+
+.green {
+  background-color: rgb(50, 150, 100);
+}
+
+.blue {
+  background-color: rgb(50, 100, 150);
+}
+
+.yellow {
+  background-color: rgb(180, 180, 0);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  opacity: .5;
+  /* background-color: grey; */
+}
+
+.note {
+  color: rgb(125, 125, 136);
+  font-size: 9px;
+}
