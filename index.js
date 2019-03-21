@@ -12,6 +12,10 @@ audioDict = {
   "wrong": new Audio("sounds/wrong.mp3")
 };
 
+for (var key in audioDict) {
+  audioDict[key].volume = 0.6;
+}
+
 var sequence = [];
 var currentPlace = -1;
 var userMove = "";
